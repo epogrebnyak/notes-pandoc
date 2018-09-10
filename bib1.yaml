@@ -1,0 +1,46 @@
+# https://github.com/citation-style-language/schema/blob/master/csl-data.json
+references:
+- id: lc03
+  type: paper-conference
+  author: 
+    - family: Jimenez
+      given: Gabriel
+    - family: Saurina
+      given: Jesus
+  title: "Loan Characteristics and Credit Risk"   
+  abstract: "Impact of characteristics of loans (i.e. collateral, 
+             maturity,  size,  type  of  lender  and  
+             closeness  of  the  customer-bank  relationship)  
+             have  on  default rates (PD)."
+  issued:
+    year: 2003
+- id: Allen2001gtd
+  type: book
+  publisher-place: "New York"
+  abstract: "The influential book for managing tasks: get them out of one's mind by recording them with a bias towards action. The workflow consists of five stages: capture, clarify, organize, reflect, and engage. Spoke of tricks, not hacks."
+  author:
+  - family: "Allen"
+    given: "David"
+  custom1: "20150709"
+  custom2: "lh-productivity.mm"
+  issued:
+    year: 2001
+  publisher: "Penguin Books"
+  title-short: "Getting things done"
+  title: "Getting things done: The art of stress-free productivity"
+- id: AllinsonHayes2012csi
+  type: book
+  publisher-place: "United Kingdom"
+  abstract: "The Cognitive Style Index (CSI) is a 38-item self-report questionnaire with scores of 2 (true), 1 (uncertain), and false (zero) that range from the most intuitive (zero) to analytic (76)"
+  author:
+  - family: "Allinson"
+    given: "Christopher"
+  - family: "Hayes"
+    given: "John"
+  custom1: "20151119"
+  custom2: "lh.mm"
+  issued:
+    year: 2012
+  publisher: "Pearson Education"
+  title-short: "The cognitive style index"
+  title: "The cognitive style index: Technical manual and user guide"  

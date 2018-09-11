@@ -122,9 +122,20 @@ Similar CLI work process for microlearning:
 Other links
 ---------
 
+- <https://github.com/nteract/nteract>
+- <https://joshldavis.com/2014/02/12/doing-your-homework-in-latex/>
 - <https://github.com/ihrke/markdown-paper>
 - <https://github.com/ihrke/markdown-talk>
 - <https://www.crossref.org/labs/citation-formatting-service>
+
+Reproducibility: 
+
+- <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005468>
+- <http://blogs.discovermagazine.com/neuroskeptic/2018/01/02/is-reproducibility-central-science>
+- <https://www.nature.com/articles/d41586-018-06008-w>
+- <https://www.coursera.org/learn/reproducible-research#syllabus>
+- <https://www.tse-fr.eu/publications/how-make-pie-reproducible-research-empirical-economics-econometrics>
+- <https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository>
 
 Journals
 --------
@@ -137,7 +148,60 @@ Chart
 -----
 ![md-pdf-workflow](https://kieranhealy.org/files/misc/workflow-rmd-md.png)
 ![md-pdf-workflow-2](https://ljvmiranda921.github.io/assets/png/tuts/workflow.png)
+![md-pdf-workflow-2](https://4bds6hergc-flywheel.netdna-ssl.com/wp-content/uploads/2017/09//troff-latex-html-asciidoc-compare-source-code.png)
 
+
+Takeaways
+=========
+
+```
+
+domain,                                research finding             contribution
+idea,
+problem                                service/product              utility
+
+                                                                    clarity
+
+              theory
+
+              data, evidence
+
+              methods, code
+
+              previous findings
+
+
+                              images
+
+                              tables
+
+                              text
+
+                                       book
+
+                                       report
+                    
+                                       research article              readers
+
+                                       commentary
+
+                                       documentation                 users
+
+                                       service, product
+```
+
+
+Choice of reporting format depends on:
+  - ratios of code/images to prose
+  - layout complexity
+  - maths 
+  - end user expectations about delievery (time to market, reproducible)
+
+Names:
+- learning `markdown` is highly recommended
+- `jupiter` notebooks are here to stay (enhance your experience with `nbconvert`)
+- learn `pandoc` to see how you can convert between different formats quickly
+- invest in `latex`, if you will have to work with them in your domain field
 
 Example
 =======

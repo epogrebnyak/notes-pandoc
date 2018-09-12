@@ -5,8 +5,8 @@ date: September 2018
 bibliography: bib1.yaml
 ---
 
-Text-based command-line workflow for printable and publishable media (on Windows).
-==================================================================================
+Text-based command-line workflow for printable and publishable research delievery (yes, on Windows).
+====================================================================================================
 
 Objectives
 ----------
@@ -127,6 +127,25 @@ Other links
 - <https://github.com/ihrke/markdown-paper>
 - <https://github.com/ihrke/markdown-talk>
 - <https://www.crossref.org/labs/citation-formatting-service>
+- <https://content.iospress.com/articles/information-services-and-use/isu862>
+
+Formulas:
+- Supplement: mathjax, katex and [annotated formulas](https://github.com/distillpub/template/wiki/Annotated-Formulas)
+
+
+Review and practices:
+- <http://facweb.cs.depaul.edu/mobasher/classes/CSC426/>
+- <https://www.soas.ac.uk/cedep-demos/000_P506_RM_3736-Demo/unit1/index.htm>
+
+Peer-review bias:
+- https://pdfs.semanticscholar.org/62c2/a36763d95fdf38bdc4a5358985f1030e6c21.pdf
+- https://www.vox.com/2015/12/7/9865086/peer-review-science-problems
+- http://journals.sagepub.com/doi/pdf/10.1177/1367493517727320
+
+
+Writing:
+- http://web.mit.edu/me-ugoffice/communication/technical-writing.pdf
+- https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 
 Reproducibility: 
 

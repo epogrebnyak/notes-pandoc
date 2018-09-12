@@ -52,7 +52,7 @@ reduces these costs.
 
 - Text editors and lightweight markup (`.md`, `.rst`, `.asciidoc`)
 - Visualisation: more is less
-- Managing bibliography
+- Managing bibliography: doi, crossref
 - Hosting and revision: git, aws s3
 
 ### Tips for better writing

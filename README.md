@@ -5,14 +5,14 @@ Markdown to PDF workflow using pandoc
 ## Abstract
 
 Modern open-source computing tools make a promise of 
-reproducible, accessible and more clear research findings. 
+reproducible, accessible and more clear research findings
+as well as easier experimentation and 
+faster delivery of results.
 
 However, new skill aquisition and sustaining of open-source
 workflow comes at a cost. This cost can go down 
-with a choice of tools and techniques with low technical burden.
-
-Chained together these tools allow easier experimentation and 
-faster delivery of research findings.
+with a choice of tools and techniques with low technical burden, 
+as described below.
 
 
 ![Author at work](images/Roman_de_la_Rose_f._28r_Author_at_writing_desk.jpg)

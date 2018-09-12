@@ -1,10 +1,18 @@
 # pandoc-tryout
 Markdown to PDF workflow using pandoc
 
-Modern open-source tools for data-driven analysis allow to deliever
-reproducible and clear research findings as well as personal productivity 
-gains. These benefits can materialise through acqusition of 
-new skills and research organisation methods.  
+
+## Abstract
+
+Modern open-source computing tools make a promise of 
+reproducible, accessible and more clear research findings. 
+
+However, new skill aquisition and sustaining of open-source
+workflow comes at a cost. This cost can go down 
+with a choice of tools and techniques with low technical burden.
+
+Chained together these tools allow easier experimentation and 
+faster delivery of research findings.
 
 
 ![Author at work](images/Roman_de_la_Rose_f._28r_Author_at_writing_desk.jpg)
@@ -16,6 +24,7 @@ new skills and research organisation methods.
   - proof of learning
   - document findings
   - extending knowledge
+  - verification
   
 2. Research process and outcomes
   - incentives, quality and gaps in science

@@ -8,14 +8,13 @@ a promise of reproducible and promptly accessible research
 as well as faster experimentation.
 
 However, new skill aquisition is a cost and sustaining 
-of open-source workflow is an investment, specifically 
-in maintaining pipeline from research inputs 
-to finished publication.
+reproducible workflow from research inputs to finished 
+publication is an investment.
 
 Choosing tools and techniques with low technical burden 
-and end-to-end connectivity reduces these costs. 
+and good connectivity reduces these costs. 
 
-## Is it much different now?
+## Is authoring much different now?
 
 > Author at writing desk. Roman de la Rose. Circa 1230
 

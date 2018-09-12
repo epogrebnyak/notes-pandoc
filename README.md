@@ -9,11 +9,11 @@ as well as faster experimentation.
 
 However, new skill aquisition is a cost and sustaining 
 of open-source workflow is an investment, specifically 
-in maintaining end-to-end pipeline from research inputs 
+in maintaining pipeline from research inputs 
 to finished publication.
 
 Choosing tools and techniques with low technical burden 
-reduces these costs. 
+and end-to-end connectivity reduces these costs. 
 
 ## Is it much different now?
 

@@ -137,6 +137,16 @@ Reproducibility:
 - <https://www.tse-fr.eu/publications/how-make-pie-reproducible-research-empirical-economics-econometrics>
 - <https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository>
 
+Search based on title:
+
+- http://conference.scipy.org/proceedings/scipy2018/pdfs/proceedings.pdf
+- http://www7.inra.fr/mia/T/cros/Interests.html
+- http://ropensci.github.io/reproducibility-guide/sections/introduction/
+- https://arxiv.org/pdf/1503.02388.pdf
+
+
+
+
 Journals
 --------
 

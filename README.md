@@ -23,18 +23,21 @@ and good connectivity reduces these costs.
 
 ## 1. General topics:
 
-1. Why communicate your findings?
+**1.1. Why communicate your findings?**
+
   - proof of learning
   - document findings
   - extending knowledge
   - verification
   
-2. Research process and outcomes
+**1.2. Research process and outcomes**
+
   - incentives, quality and gaps in science
   - dissemination and open access
   - bibliography and citations
   
-3. Reproducible research
+**1.3. Reproducible research**
+
   - was clear and accountable research always a goal?
   - can this goal be fulfilled now?
 
@@ -47,21 +50,21 @@ and good connectivity reduces these costs.
 
 ## 3. Practical skills
 
-### Basic productivity
+### 3.1. Basic productivity
 
 - Text editors and lightweight markup (`.md`, `.rst`, `.asciidoc`)
 - Visualisation: more is less
 - Managing bibliography: doi, crossref
 - Hosting and revision: git, aws s3
 
-### Tips for better writing
+### 3.2. Tips for better writing
 
 - [Just write and have your writing reviewed](https://academia.stackexchange.com/questions/731/how-to-improve-technical-writing)
 
-### Research frontend
+### 3.3. Research frontend
 
-- Notebook wars: combining prose, formulas, code and illustrations
+- Notebook wars: combining prose, maths, code and illustrations
 - Interactive apps: shiny, plotly, bokeh
-- Lightweight presentations: reveal.js and beamer
+- Lightweight presentations: reveal.js and beamer (PDF)
 - Books, reports, articles in PDF
-- Formats of tomorrow: [https://distill.pub]
+- Formats of tomorrow: [distill](https://distill.pub)

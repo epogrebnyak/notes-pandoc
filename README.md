@@ -1,19 +1,23 @@
-# pandoc-tryout
-Markdown to PDF workflow using pandoc
-
+# notes-pandoc
+Started as "Markdown to PDF workflow using pandoc"
 
 ## Abstract
 
-Modern open-source computing tools make a promise of 
-reproducible, accessible and more clear research findings
-as well as easier experimentation and 
-faster delivery of results.
+Modern open-source computing and publishing tools make 
+a promise of reproducible and promptly accessible research 
+as well as faster experimentation.
 
-However, new skill aquisition and sustaining of open-source
-workflow comes at a cost. This cost can go down 
-with a choice of tools and techniques with low technical burden, 
-as described below.
+However, new skill aquisition is a cost and sustaining 
+of open-source workflow is an investment, specifically 
+in maintaining end-to-end pipeline from research inputs 
+to finished publication.
 
+Choosing tools and techniques with low technical burden 
+reduces these costs. 
+
+## Is it much different now?
+
+> Author at writing desk. Roman de la Rose. Circa 1230
 
 ![Author at work](images/Roman_de_la_Rose_f._28r_Author_at_writing_desk.jpg)
 
@@ -39,17 +43,17 @@ as described below.
 
 - Research design: context, problem, hypothesis, solution
 - Analysis is a DAG (and iterations)
-- Findings statement and abstract
+- Findings: statements, abstract
 - Steps: plan, execute, test, document, refactor
 
 ## 3. Practical skills
 
 ### Basic productivity
 
-- Hosting and revision: git, aws s3
 - Text editors and lightweight markup (`.md`, `.rst`, `.asciidoc`)
 - Visualisation: more is less
 - Managing bibliography
+- Hosting and revision: git, aws s3
 
 ### Tips for better writing
 
@@ -57,8 +61,8 @@ as described below.
 
 ### Research frontend
 
-- Notebook wars: combining prose, code and illustrations
-- Apps: shiny, plotly, bokeh
-- Lightweight presentations
-- Books, reports, articles
+- Notebook wars: combining prose, formulas, code and illustrations
+- Interactive apps: shiny, plotly, bokeh
+- Lightweight presentations: reveal.js and beamer
+- Books, reports, articles in PDF
 - Formats of tomorrow: [https://distill.pub]

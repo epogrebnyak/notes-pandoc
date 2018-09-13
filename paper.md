@@ -144,7 +144,9 @@ Search based on title:
 - http://ropensci.github.io/reproducibility-guide/sections/introduction/
 - https://arxiv.org/pdf/1503.02388.pdf
 
+Outdated:
 
+- https://github.com/markgollnick/mmd2pdf
 
 
 Journals

@@ -137,6 +137,12 @@ Reproducibility:
 - <https://www.tse-fr.eu/publications/how-make-pie-reproducible-research-empirical-economics-econometrics>
 - <https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository>
 
+More on reproducible research:
+
+- https://link.springer.com/article/10.1007/s11024-018-9344-6
+- https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/
+
+
 Search based on title:
 
 - http://conference.scipy.org/proceedings/scipy2018/pdfs/proceedings.pdf
@@ -147,6 +153,8 @@ Search based on title:
 Outdated:
 
 - https://github.com/markgollnick/mmd2pdf
+
+
 
 Datasets
 --------

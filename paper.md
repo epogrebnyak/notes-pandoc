@@ -164,7 +164,11 @@ Search based on title:
 - https://arxiv.org/pdf/1503.02388.pdf
 
 
+Replication economics NBER:
 
+- http://www.nber.org/papers/w13026
+- http://www.nber.org/papers/w15794
+- 
 
 Journals
 --------

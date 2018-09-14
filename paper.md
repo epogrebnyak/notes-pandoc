@@ -64,8 +64,8 @@ Render this paper to latex (prints to screen):
 
     pandoc --filter pandoc-citeproc -s paper.md -t latex
 
-
 More at [this example](http://pandoc.org/demo/example19/Extension-citations.html)
+
 
 #### Citation managers
 
@@ -112,7 +112,7 @@ Similar CLI work process for microlearning:
 #### Gost citations
 
 - <https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template/blob/master/Readme/Bibliography.md>
-
+- [gost bibliography template](https://github.com/irandom/docs)
 
 #### CSL
 

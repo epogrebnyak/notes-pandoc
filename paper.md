@@ -177,7 +177,10 @@ Replication economics NBER:
 
 - http://www.nber.org/papers/w13026
 - http://www.nber.org/papers/w15794
-- 
+
+
+Vitalik-ty:
+- <http://focus.barcelonagse.eu/dynamics-scientific-evolution-luminaries-influence-vitality-science/>
 
 Datasets
 --------

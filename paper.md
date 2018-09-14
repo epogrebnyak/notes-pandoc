@@ -156,6 +156,12 @@ Reproducibility:
 - <https://www.tse-fr.eu/publications/how-make-pie-reproducible-research-empirical-economics-econometrics>
 - <https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository>
 
+More on reproducible research:
+
+- https://link.springer.com/article/10.1007/s11024-018-9344-6
+- https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/
+
 Search based on title:
 
 - http://conference.scipy.org/proceedings/scipy2018/pdfs/proceedings.pdf
@@ -163,12 +169,21 @@ Search based on title:
 - http://ropensci.github.io/reproducibility-guide/sections/introduction/
 - https://arxiv.org/pdf/1503.02388.pdf
 
+Outdated:
+
+- https://github.com/markgollnick/mmd2pdf
 
 Replication economics NBER:
 
 - http://www.nber.org/papers/w13026
 - http://www.nber.org/papers/w15794
 - 
+
+Datasets
+--------
+
+- github adoption - stars 
+- downloads
 
 Journals
 --------

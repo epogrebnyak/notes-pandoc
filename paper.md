@@ -5,28 +5,60 @@ date: September 2018
 bibliography: bib1.yaml
 ---
 
-Text-based command-line workflow for printable and publishable research delievery (yes, on Windows).
-====================================================================================================
+
+Text-based command-line research workflow 
+=========================================
+
+
+
 
 Objectives
 ----------
 
 - [ ] write text in a lightweight markup language
-- [ ] produce PDF, html and other formats
+- [ ] produce PDF, html and other documents
 - [ ] automate workflow using command line
+
+
+Word - Excel - Powerpoint
+markdown - CSV - Powerpoint
+
+Possible outputs
+----------------
+
+- printout
+- book 
+- web page 
+- scientific article in pdf
+- presentation 
+- documentation
+- 'app'
+- notebook
+
+Constraints
+-----------
+
 - [ ] run on Windows
-- [ ] cannot use online web-based services
+- [ ] limit use of web-based services (rpoxy/dependecies)
 
 Some examples of workflow
 -------------------------
 
 - <https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8>
 - <https://github.com/mschroen/Science.md>
-- charts section below
+
 
 
 Software
 --------
+
+### Document naming
+
+- [Name things](https://speakerdeck.com/jennybc/how-to-name-files)
+
+#### Documentation (mkdocs, sphynx) and static site generators (jekyll)
+
+- http://docs.getpelican.com/en/stable/quickstart.html
 
 #### Latex
 

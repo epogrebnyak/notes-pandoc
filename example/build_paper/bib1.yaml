@@ -1,5 +1,5 @@
-# https://github.com/citation-style-language/schema/blob/master/csl-data.json
 references:
+
 - id: lc03
   type: paper-conference
   author: 
@@ -14,6 +14,7 @@ references:
              have  on  default rates (PD)."
   issued:
     year: 2003
+
 - id: Allen2001gtd
   type: book
   publisher-place: "New York"
@@ -28,6 +29,7 @@ references:
   publisher: "Penguin Books"
   title-short: "Getting things done"
   title: "Getting things done: The art of stress-free productivity"
+
 - id: AllinsonHayes2012csi
   type: book
   publisher-place: "United Kingdom"

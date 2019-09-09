@@ -1,0 +1,540 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Simple text to PDF workflow},
+            pdfauthor={Evgeny Pogrebnyak},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Simple text to PDF workflow}
+\author{Evgeny Pogrebnyak}
+\date{September 2018}
+
+\begin{document}
+\maketitle
+
+\hypertarget{text-based-command-line-research-workflow}{%
+\section{Text-based command-line research
+workflow}\label{text-based-command-line-research-workflow}}
+
+\hypertarget{objectives}{%
+\subsection{Objectives}\label{objectives}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} write text in a lightweight markup language
+\item
+  {[} {]} produce PDF, html and other documents
+\item
+  {[} {]} automate workflow using command line
+\end{itemize}
+
+Word - Excel - Powerpoint markdown - CSV - Powerpoint
+
+\hypertarget{possible-outputs}{%
+\subsection{Possible outputs}\label{possible-outputs}}
+
+\begin{itemize}
+\tightlist
+\item
+  printout
+\item
+  book
+\item
+  web page
+\item
+  scientific article in pdf
+\item
+  presentation
+\item
+  documentation
+\item
+  `app'
+\item
+  notebook
+\end{itemize}
+
+\hypertarget{constraints}{%
+\subsection{Constraints}\label{constraints}}
+
+\begin{itemize}
+\tightlist
+\item
+  {[} {]} run on Windows
+\item
+  {[} {]} limit use of web-based services (rpoxy/dependecies)
+\end{itemize}
+
+\hypertarget{some-examples-of-workflow}{%
+\subsection{Some examples of workflow}\label{some-examples-of-workflow}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8}
+\item
+  \url{https://github.com/mschroen/Science.md}
+\end{itemize}
+
+\hypertarget{software}{%
+\subsection{Software}\label{software}}
+
+\hypertarget{document-naming}{%
+\subsubsection{Document naming}\label{document-naming}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://speakerdeck.com/jennybc/how-to-name-files}{Name things}
+\end{itemize}
+
+\hypertarget{documentation-mkdocs-sphynx-and-static-site-generators-jekyll}{%
+\paragraph{Documentation (mkdocs, sphynx) and static site generators
+(jekyll)}\label{documentation-mkdocs-sphynx-and-static-site-generators-jekyll}}
+
+\begin{itemize}
+\tightlist
+\item
+  http://docs.getpelican.com/en/stable/quickstart.html
+\end{itemize}
+
+\hypertarget{latex}{%
+\paragraph{Latex}\label{latex}}
+
+Latex:
+
+\begin{itemize}
+\tightlist
+\item
+  describes content and layout for PDF files
+\item
+  long-standing standard for scientific publishing
+\item
+  aims to separate content from presentation
+\item
+  can handle complex formulas and layouts
+\item
+  gives stable output on different platforms
+\item
+  has a process to include bibliograpy
+\item
+  often a preferred format for journal submissions
+\end{itemize}
+
+Drawbacks:
+
+\begin{itemize}
+\tightlist
+\item
+  the price you pay is overhead: large installation pakages and document
+  manipulations requires skill
+\item
+  not too readable without prior knowledge, very hard to write from
+  scratch\\
+\item
+  easier when working on an existing project or working in a template
+\end{itemize}
+
+Cutting edge:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://blog.typeset.io/the-only-latex-editor-guide-youll-need-in-2018-e63868fae027}{online
+  editors} cut down installation burden and provide visual functionality
+\item
+  \ldots{} yet you loose some of control over files
+\item
+  alternative is git-based workflow to handle
+\end{itemize}
+
+Stories:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://3d.bk.tudelft.nl/ken/en/2016/04/02/my-latex-thesis-workflow.html}{1}
+\item
+  \href{http://pierog.it/en/2018/03/markdown-workflow/}{2}
+\end{itemize}
+
+\hypertarget{pandoc-and-pandoc-citeproc}{%
+\paragraph{pandoc and
+pandoc-citeproc}\label{pandoc-and-pandoc-citeproc}}
+
+Render this paper to latex (prints to screen):
+
+\begin{verbatim}
+pandoc --filter pandoc-citeproc -s paper.md -t latex
+\end{verbatim}
+
+More at
+\href{http://pandoc.org/demo/example19/Extension-citations.html}{this
+example}
+
+\hypertarget{citation-managers}{%
+\paragraph{Citation managers}\label{citation-managers}}
+
+\textbf{GUI}:
+
+\begin{itemize}
+\tightlist
+\item
+  JabRef
+\item
+  Zotero (public funding), Mendeley (Elsevier), Paper (for Mac), EndNote
+  (private, \$249.95)
+\item
+  Docear (Windows)
+\end{itemize}
+
+Functionality:
+
+\begin{itemize}
+\tightlist
+\item
+  GUI for citation database
+\item
+  conversion of formats
+\item
+  MS Word and browser integration
+\end{itemize}
+
+\textbf{Command line}:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://github.com/papis/papis}
+\item
+  \url{https://github.com/pubs/pubs}
+\item
+  \href{https://github.com/search?utf8=\%E2\%9C\%93\&q=bibtool}{bibtools}
+  (little documentation)
+\end{itemize}
+
+May have useful features, but\ldots{}
+
+\begin{itemize}
+\tightlist
+\item
+  running a bit rough, little documentation
+\item
+  failing on Windows
+\item
+  hard to compete with big names
+\end{itemize}
+
+Common functions:
+
+\begin{itemize}
+\tightlist
+\item
+  init a local database
+\item
+  add bibliographic entry
+\item
+  list database
+\item
+  export it to \texttt{.bib}
+\end{itemize}
+
+Important add-ons:
+
+\begin{itemize}
+\tightlist
+\item
+  query by doi
+\item
+  use other online resources
+\end{itemize}
+
+Similar CLI work process for microlearning:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://github.com/dnote/cli}
+\end{itemize}
+
+\hypertarget{gost-citations}{%
+\paragraph{Gost citations}\label{gost-citations}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template/blob/master/Readme/Bibliography.md}
+\item
+  \href{https://github.com/irandom/docs}{gost bibliography template}
+\end{itemize}
+
+\hypertarget{csl}{%
+\paragraph{CSL}\label{csl}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/citation-style-language/schema/blob/master/csl-data.json}{CSL
+  input schema}
+\item
+  \url{http://editor.citationstyles.org/searchByName/}
+\end{itemize}
+
+\hypertarget{other-links}{%
+\subsection{Other links}\label{other-links}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://github.com/nteract/nteract}
+\item
+  \url{https://joshldavis.com/2014/02/12/doing-your-homework-in-latex/}
+\item
+  \url{https://github.com/ihrke/markdown-paper}
+\item
+  \url{https://github.com/ihrke/markdown-talk}
+\item
+  \url{https://www.crossref.org/labs/citation-formatting-service}
+\item
+  \url{https://content.iospress.com/articles/information-services-and-use/isu862}
+\end{itemize}
+
+Formulas: - Supplement: mathjax, katex and
+\href{https://github.com/distillpub/template/wiki/Annotated-Formulas}{annotated
+formulas}
+
+Review and practices: -
+\url{http://facweb.cs.depaul.edu/mobasher/classes/CSC426/} -
+\url{https://www.soas.ac.uk/cedep-demos/000_P506_RM_3736-Demo/unit1/index.htm}
+
+Peer-review bias: -
+https://pdfs.semanticscholar.org/62c2/a36763d95fdf38bdc4a5358985f1030e6c21.pdf
+- https://www.vox.com/2015/12/7/9865086/peer-review-science-problems -
+http://journals.sagepub.com/doi/pdf/10.1177/1367493517727320
+
+Writing: -
+http://web.mit.edu/me-ugoffice/communication/technical-writing.pdf -
+https://shd101wyy.github.io/markdown-preview-enhanced/\#/math
+
+Reproducibility:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005468}
+\item
+  \url{http://blogs.discovermagazine.com/neuroskeptic/2018/01/02/is-reproducibility-central-science}
+\item
+  \url{https://www.nature.com/articles/d41586-018-06008-w}
+\item
+  \url{https://www.coursera.org/learn/reproducible-research\#syllabus}
+\item
+  \url{https://www.tse-fr.eu/publications/how-make-pie-reproducible-research-empirical-economics-econometrics}
+\item
+  \url{https://academia.stackexchange.com/questions/14010/how-do-you-cite-a-github-repository}
+\end{itemize}
+
+More on reproducible research:
+
+\begin{itemize}
+\tightlist
+\item
+  https://link.springer.com/article/10.1007/s11024-018-9344-6
+\item
+  https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/
+\item
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/
+\end{itemize}
+
+Search based on title:
+
+\begin{itemize}
+\tightlist
+\item
+  http://conference.scipy.org/proceedings/scipy2018/pdfs/proceedings.pdf
+\item
+  http://www7.inra.fr/mia/T/cros/Interests.html
+\item
+  http://ropensci.github.io/reproducibility-guide/sections/introduction/
+\item
+  https://arxiv.org/pdf/1503.02388.pdf
+\end{itemize}
+
+Outdated:
+
+\begin{itemize}
+\tightlist
+\item
+  https://github.com/markgollnick/mmd2pdf
+\end{itemize}
+
+Replication economics NBER:
+
+\begin{itemize}
+\tightlist
+\item
+  http://www.nber.org/papers/w13026
+\item
+  http://www.nber.org/papers/w15794
+\end{itemize}
+
+Vitalik-ty: -
+\url{http://focus.barcelonagse.eu/dynamics-scientific-evolution-luminaries-influence-vitality-science/}
+
+\hypertarget{datasets}{%
+\subsection{Datasets}\label{datasets}}
+
+\begin{itemize}
+\tightlist
+\item
+  github adoption - stars
+\item
+  downloads
+\end{itemize}
+
+\hypertarget{journals}{%
+\subsection{Journals}\label{journals}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://journals.plos.org/plosone}
+\item
+  \url{https://arxiv.org}
+\end{itemize}
+
+\hypertarget{chart}{%
+\subsection{Chart}\label{chart}}
+
+\includegraphics{https://kieranhealy.org/files/misc/workflow-rmd-md.png}
+\includegraphics{https://ljvmiranda921.github.io/assets/png/tuts/workflow.png}
+\includegraphics{https://4bds6hergc-flywheel.netdna-ssl.com/wp-content/uploads/2017/09//troff-latex-html-asciidoc-compare-source-code.png}
+
+\hypertarget{takeaways}{%
+\section{Takeaways}\label{takeaways}}
+
+\begin{verbatim}
+
+domain,                                research finding             contribution
+idea,
+problem                                service/product              utility
+
+                                                                    clarity
+
+              theory
+
+              data, evidence
+
+              methods, code
+
+              previous findings
+
+
+                              images
+
+                              tables
+
+                              text
+
+                                       book
+
+                                       report
+                    
+                                       research article              readers
+
+                                       commentary
+
+                                       documentation                 users
+
+                                       service, product
+\end{verbatim}
+
+Choice of reporting format depends on: - ratios of code/images to prose
+- layout complexity - maths - end user expectations about delievery
+(time to market, reproducible)
+
+Names: - learning \texttt{markdown} is highly recommended -
+\texttt{jupiter} notebooks are here to stay (enhance your experience
+with \texttt{nbconvert}) - learn \texttt{pandoc} to see how you can
+convert between different formats quickly - invest in \texttt{latex}, if
+you will have to work with them in your domain field
+
+\hypertarget{example}{%
+\section{Example}\label{example}}
+
+I would like to mention Jimenez and Saurina (2003) in the text.
+
+I would like a short mention of (Allen 2001) in the text.
+
+\hypertarget{references}{%
+\paragraph{References}\label{references}}
+\addcontentsline{toc}{paragraph}{References}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Allen2001gtd}{}%
+Allen, David. 2001. \emph{Getting Things Done: The Art of Stress-Free
+Productivity}. New York: Penguin Books.
+
+\leavevmode\hypertarget{ref-lc03}{}%
+Jimenez, Gabriel, and Jesus Saurina. 2003. ``Loan Characteristics and
+Credit Risk.'' In.
+
+\end{document}

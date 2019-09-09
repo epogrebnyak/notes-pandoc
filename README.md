@@ -1,18 +1,20 @@
-# notes-pandoc
-Started as "Markdown to PDF workflow using pandoc"
+# Reproducible research
 
 ## Abstract
 
-Modern open-source computing and publishing tools make 
-a promise of reproducible and promptly accessible research 
-as well as faster experimentation.
+Open-source computing and publishing tools make 
+a promise of promptly accessible and reproducible research 
+which allows faster experimentation and better result discovery 
+and dissemination.
 
-However, new skill aquisition is a cost and sustaining 
+However, making research reproducible is a new skill. 
+Aquiring such a skill is a cost and sustaining end-to-end 
 reproducible workflow from research inputs to finished 
-publication is an investment.
+publication is an investment and requires commitment
+to high technical  standards.
 
 Choosing tools and techniques with low technical burden 
-and good connectivity reduces these costs. 
+and good connectivity options reduces these costs. 
 
 ## Is authoring much different now?
 
@@ -23,10 +25,9 @@ and good connectivity reduces these costs.
 
 ## 1. General topics:
 
-**1.1. Why communicate your findings?**
+**1.1. Progress of science, or why communicate your findings?**
 
-  - proof of learning
-  - document findings
+  - proof of discovery / document findings
   - extending knowledge
   - verification
   
@@ -35,10 +36,11 @@ and good connectivity reduces these costs.
   - incentives, quality and gaps in science
   - dissemination and open access
   - bibliography and citations
+  - peer review
   
 **1.3. Reproducible research**
 
-  - was clear and accountable research always a goal?
+  - was clear and accountable research always a stated and actual goal?
   - can this goal be fulfilled now?
 
 ## 2. Approaches

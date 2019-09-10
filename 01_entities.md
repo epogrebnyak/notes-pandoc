@@ -1,11 +1,13 @@
-Research presentation:
+Research presentation
+---------------------
 
-- manuscript
-- dashboard
-- code and outputs
+- manuscript, report
+- data dashboard
+- code and code outputs
 - interactive demostration, 'app'
 
-Artefacts:
+Artefacts
+---------
 
 - text
 - image
@@ -14,7 +16,8 @@ Artefacts:
 - table
 - citation
 
-Workflow:
+Workflow
+--------
 
 - text with illustrations
 - interactive demostrations
@@ -22,20 +25,86 @@ Workflow:
 - runnable code or algorithm 
 - code of a visaualisation
 
-Formats:
+
+Possible outputs
+----------------
+
+- printout, handout
+- book 
+- tutorial
+- web page 
+- article in PDF
+- presentation 
+- documentation
+- 'app'
+- computational notebook
+
+
+Formats
+-------
 
 - HTML
 - PDF
 - Markdown
 
 Frameworks:
+----------
 
 - Manubot
 - DistillPubs
-- Authorea
+- (Authorea)
 
-Journals:
+Journals
+--------
 
-- https://journals.plos.org
-- ResearchersOne
-- Arxiv
+- <https://journals.plos.org/plosone>
+- <https://arxiv.org>
+
+
+Translations
+------------
+
+- Word - Excel - Powerpoint
+- markdown - CSV - reveal.js
+
+
+Chart
+-----
+
+
+```
+
+domain,                                research finding             contribution
+idea,
+problem                                service/product              utility
+
+                                                                    clarity
+
+              theory
+
+              data, evidence
+
+              methods, code
+
+              previous findings
+
+
+                              images
+
+                              tables
+
+                              text
+
+                                       book
+
+                                       report
+                    
+                                       research article              readers
+
+                                       commentary
+
+                                       documentation                 users
+
+                                       service, product
+```
+

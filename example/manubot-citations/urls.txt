@@ -1,0 +1,7 @@
+url:https://www.nature.com/nature-research/editorial-policies/peer-review#criteria-for-publication
+url:https://vhbonline.org/en/service/jourqual/vhb-jourqual-3/complete-list-of-the-journals/
+url:https://www.soimort.org/notes/161117/
+url:https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+url:https://pandoc.org/demo/example19/Extension-citations.html
+url:https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8
+url:https://kieranhealy.org/blog/archives/2014/01/23/plain-text/

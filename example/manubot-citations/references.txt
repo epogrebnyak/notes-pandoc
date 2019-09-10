@@ -1,0 +1,4 @@
+pmid:27225100
+pmid:27683470
+doi:10.1371/journal.pbio.2005468
+url:https://vhbonline.org/en/service/jourqual/vhb-jourqual-3/complete-list-of-the-journals/
